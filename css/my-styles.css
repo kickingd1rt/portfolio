@@ -43,7 +43,6 @@ nav, #feature, footer {
     font-weight: 400;
     font-style: normal;
 }
-
 nav{
     text-align: center;
 }
@@ -81,6 +80,9 @@ body {
     cursor: crosshair;
 }
 
+.fancybox-arrow:hover {
+    cursor:crosshair;
+}
 
 h3{
     font-family: "neue-haas-grotesk-display", sans-serif;
