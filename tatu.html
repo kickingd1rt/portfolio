@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Damare Jerome Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/my-styles.css">
+    <link rel="icon" href="assets/latoxica.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/nqc7kkj.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+</head>
+    <body>
+        <div id="navi">
+            <header class="w3-container">  <!--w3-container adds 16 pixels of padding 
+                around each element; w3-green makes the background green -->
+                <nav>
+                    <ul id="nav">
+                        <li><a id="nav" style="text-decoration:none" href="index.html">HOME</a></li>
+                        <li><a id="nav" style="text-decoration:none" href="gallery.html">WORKS</a></li>
+                        <!-- <li><a id="nav" style="text-decoration:none" href="resume.html">RESUME</a></li> -->
+                        <li><a id="nav" style="text-decoration:none" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+<div class="main">
+
+      <h2 id="tatu">Tattoo Works</h2>
+
+    <div class="row">
+        <div class="column">
+          <div class="content">
+            <a id="works" href="assets/latoxica_1.jpg"  data-fancybox="gallery-1">
+              <img src="assets/latoxica_1.jpg" width="100%"/>
+            </a>
+            <a href="assets/latoxica_2.jpg" data-fancybox="gallery-1">
+            </a>
+            <a href="assets/latoxica_3.jpg" data-fancybox="gallery-1">
+            </a>
+            <a href="assets/latoxica_4.jpg" data-fancybox="gallery-1">
+            </a>
+            <p>LaToxica // 2023</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <a id="works" href="assets/insider_tatu.jpg "  data-fancybox="gallery-2">
+              <img src="assets/insider_tatu.jpg" width="100%"/>
+            </a>
+            <p>InsideR // 2023</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <a id="works" href="assets/tatu.jpg "  data-fancybox="gallery-3">
+              <img src="assets/tatu.jpg" width="100%"/>
+            </a>
+            <a id="works" href="assets/tatu_mockup.png"  data-fancybox="gallery-3">
+            </a>
+            <p>Miscellaneous // 2023</p>
+          </div>
+        </div>
+    </div>
+</div>
+
+        <footer>
+          <p>&copy; Copyright kickingd1rt 2024</p>
+        </footer>
+	</body>
+
+<script>
+    $(document).ready(function(){
+        
+        Fancybox.bind("[data-fancybox]", {
+
+  protected: true,
+
+});
+    });
+</script>
+
+</html>
